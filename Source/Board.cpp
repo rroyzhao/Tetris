@@ -24,3 +24,43 @@ Board::~Board() {
 
     delete [] pGameBoard;          // 删除指针
 }
+
+// 消除行
+int Board::removeRow() { // 原理：逐行判断
+    int col;
+    for (int row = 0; row < GAME_HEIGHT - 1; row++) {    // 遍历每一行(去除边界)
+        for (col = 1; col < GAME_WIDTH - 1; col++) { // 遍历每一列(去除边界)
+            if (col == GAME_WIDTH - 1)
+                downRow(row);
+        }
+    }
+    return 0;
+}
+
+// row行开始下落
+void Board::downRow(int row) {
+    for (int r = row; r > 1; r--) { // 最上面(0行)为空
+        for (int c = 0; c < GAME_WIDTH - 1; c++) {
+            this->pGameBoard[r][c] = this->pGameBoard[r - 1][r];
+        }
+    }
+    for (int c = 1; c < GAME_WIDTH - 1; c++) {
+        this->pGameBoard[1][c] = EMPTY; // 第一行(0行)全部清空
+    }
+}
+
+// 插入blocks
+void Board::insertBlocks(Blocks *pBlocks) {
+
+}
+
+// 删除blocks
+void Board::deleteBlocks(Blocks *pBlocks) {
+
+}
+
+// 判断是否可以插入blocks
+bool Board::isInserting(Blocks *pBlocks) {
+    return false;
+}
+
