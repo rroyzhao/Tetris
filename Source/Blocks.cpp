@@ -28,3 +28,7 @@ void Blocks::moveUp() {    // 向上移动一步
     }
 }
 
+Block *Blocks::getBlock() {
+    return this->block;
+}
+

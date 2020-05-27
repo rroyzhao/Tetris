@@ -19,6 +19,7 @@ public:
 
     void moveUp();           // 向上移动
     virtual void rotateBack()=0; // 逆时针旋转
+    Block * getBlock();          // 获得Block
 };
 
 #endif //TETRIS_BLOCKS_H

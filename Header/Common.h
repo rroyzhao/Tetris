@@ -4,5 +4,6 @@
 #define GAME_WIDTH 30   // 宽度
 #define GAME_HEIGHT 30  // 高度
 #define EMPTY 0         // 没有方块状态
+#define BLOCK 1         // 表示该位置有BLOCK
 
 #endif // TETRIS_COMMON_H
