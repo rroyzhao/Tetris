@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Progect/C++/Tetris/Header/Block.h
+
+D:/Progect/C++/Tetris/Header/Blocks.h
+./Block.h
+D:/Progect/C++/Tetris/Header/Block.h
+
+D:/Progect/C++/Tetris/Header/Board.h
+./Blocks.h
+D:/Progect/C++/Tetris/Header/Blocks.h
+
+D:/Progect/C++/Tetris/Header/Common.h
+
+D:/Progect/C++/Tetris/Header/OBlocks.h
+./Blocks.h
+D:/Progect/C++/Tetris/Header/Blocks.h
+
+D:/Progect/C++/Tetris/Source/Board.cpp
+../Header/Board.h
+D:/Progect/C++/Tetris/Header/Board.h
+../Header/Common.h
+D:/Progect/C++/Tetris/Header/Common.h
+
+D:/Progect/C++/Tetris/Source/OBlocks.cpp
+../Header/OBlocks.h
+D:/Progect/C++/Tetris/Header/OBlocks.h
+../Header/Common.h
+D:/Progect/C++/Tetris/Header/Common.h
+
