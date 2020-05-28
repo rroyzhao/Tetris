@@ -20,6 +20,7 @@ public:
     bool insertBlocks(Blocks *pBlocks); // 把blocks放入棋盘
     void deleteBlocks(Blocks *pBlocks); // 把blocks删除
     bool isInserting(Blocks *pBlocks);  // 是否可以在当前位置插入blocks
+    int **getGameBoard();               // 获取GameBoard
 };
 
 #endif //TETRIS_BOARD_H

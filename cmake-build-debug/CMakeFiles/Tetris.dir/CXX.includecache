@@ -18,6 +18,18 @@ D:/Progect/C++/Tetris/Header/Blocks.h
 
 D:/Progect/C++/Tetris/Header/Common.h
 
+D:/Progect/C++/Tetris/Header/Game.h
+./Blocks.h
+D:/Progect/C++/Tetris/Header/Blocks.h
+./Board.h
+D:/Progect/C++/Tetris/Header/Board.h
+./GameUI.h
+D:/Progect/C++/Tetris/Header/GameUI.h
+
+D:/Progect/C++/Tetris/Header/GameUI.h
+./Board.h
+D:/Progect/C++/Tetris/Header/Board.h
+
 D:/Progect/C++/Tetris/Header/OBlocks.h
 ./Blocks.h
 D:/Progect/C++/Tetris/Header/Blocks.h
@@ -28,9 +40,31 @@ D:/Progect/C++/Tetris/Header/Board.h
 ../Header/Common.h
 D:/Progect/C++/Tetris/Header/Common.h
 
+D:/Progect/C++/Tetris/Source/Game.cpp
+../Header/Game.h
+D:/Progect/C++/Tetris/Header/Game.h
+iostream
+-
+stdlib.h
+-
+
+D:/Progect/C++/Tetris/Source/GameUI.cpp
+../Header/GameUI.h
+D:/Progect/C++/Tetris/Header/GameUI.h
+iostream
+-
+../Header/Common.h
+D:/Progect/C++/Tetris/Header/Common.h
+
 D:/Progect/C++/Tetris/Source/OBlocks.cpp
 ../Header/OBlocks.h
 D:/Progect/C++/Tetris/Header/OBlocks.h
 ../Header/Common.h
 D:/Progect/C++/Tetris/Header/Common.h
+
+D:/Progect/C++/Tetris/main.cpp
+iostream
+-
+./Header/Game.h
+D:/Progect/C++/Tetris/Header/Game.h
 

@@ -203,6 +203,60 @@ Source/Board.cpp.s:
 	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/Source/Board.cpp.s
 .PHONY : Source/Board.cpp.s
 
+Source/Game.obj: Source/Game.cpp.obj
+
+.PHONY : Source/Game.obj
+
+# target to build an object file
+Source/Game.cpp.obj:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/Source/Game.cpp.obj
+.PHONY : Source/Game.cpp.obj
+
+Source/Game.i: Source/Game.cpp.i
+
+.PHONY : Source/Game.i
+
+# target to preprocess a source file
+Source/Game.cpp.i:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/Source/Game.cpp.i
+.PHONY : Source/Game.cpp.i
+
+Source/Game.s: Source/Game.cpp.s
+
+.PHONY : Source/Game.s
+
+# target to generate assembly for a file
+Source/Game.cpp.s:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/Source/Game.cpp.s
+.PHONY : Source/Game.cpp.s
+
+Source/GameUI.obj: Source/GameUI.cpp.obj
+
+.PHONY : Source/GameUI.obj
+
+# target to build an object file
+Source/GameUI.cpp.obj:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/Source/GameUI.cpp.obj
+.PHONY : Source/GameUI.cpp.obj
+
+Source/GameUI.i: Source/GameUI.cpp.i
+
+.PHONY : Source/GameUI.i
+
+# target to preprocess a source file
+Source/GameUI.cpp.i:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/Source/GameUI.cpp.i
+.PHONY : Source/GameUI.cpp.i
+
+Source/GameUI.s: Source/GameUI.cpp.s
+
+.PHONY : Source/GameUI.s
+
+# target to generate assembly for a file
+Source/GameUI.cpp.s:
+	$(MAKE) -f CMakeFiles\Tetris.dir\build.make CMakeFiles/Tetris.dir/Source/GameUI.cpp.s
+.PHONY : Source/GameUI.cpp.s
+
 Source/OBlocks.obj: Source/OBlocks.cpp.obj
 
 .PHONY : Source/OBlocks.obj
@@ -275,6 +329,12 @@ help:
 	@echo ... Source/Board.obj
 	@echo ... Source/Board.i
 	@echo ... Source/Board.s
+	@echo ... Source/Game.obj
+	@echo ... Source/Game.i
+	@echo ... Source/Game.s
+	@echo ... Source/GameUI.obj
+	@echo ... Source/GameUI.i
+	@echo ... Source/GameUI.s
 	@echo ... Source/OBlocks.obj
 	@echo ... Source/OBlocks.i
 	@echo ... Source/OBlocks.s

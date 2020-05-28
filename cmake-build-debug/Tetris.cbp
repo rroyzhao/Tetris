@@ -89,6 +89,12 @@
 		<Unit filename="D:/Progect/C++/Tetris/Header/Board.h">
 			<Option target="Tetris"/>
 		</Unit>
+		<Unit filename="D:/Progect/C++/Tetris/Header/Game.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Progect/C++/Tetris/Header/GameUI.h">
+			<Option target="Tetris"/>
+		</Unit>
 		<Unit filename="D:/Progect/C++/Tetris/Header/OBlocks.h">
 			<Option target="Tetris"/>
 		</Unit>
@@ -99,6 +105,12 @@
 			<Option target="Tetris"/>
 		</Unit>
 		<Unit filename="D:/Progect/C++/Tetris/Source/Board.cpp">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Progect/C++/Tetris/Source/Game.cpp">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/Progect/C++/Tetris/Source/GameUI.cpp">
 			<Option target="Tetris"/>
 		</Unit>
 		<Unit filename="D:/Progect/C++/Tetris/Source/OBlocks.cpp">

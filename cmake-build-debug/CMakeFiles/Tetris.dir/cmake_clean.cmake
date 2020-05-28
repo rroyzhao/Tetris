@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Tetris.dir/Source/Block.cpp.obj"
   "CMakeFiles/Tetris.dir/Source/Blocks.cpp.obj"
   "CMakeFiles/Tetris.dir/Source/Board.cpp.obj"
+  "CMakeFiles/Tetris.dir/Source/Game.cpp.obj"
+  "CMakeFiles/Tetris.dir/Source/GameUI.cpp.obj"
   "CMakeFiles/Tetris.dir/Source/OBlocks.cpp.obj"
   "CMakeFiles/Tetris.dir/main.cpp.obj"
   "Tetris.exe"

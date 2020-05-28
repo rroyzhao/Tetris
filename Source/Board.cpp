@@ -86,3 +86,7 @@ bool Board::isInserting(Blocks *pBlocks) {  // true:可以放置
     return true;
 }
 
+int **Board::getGameBoard() {
+    return this->pGameBoard;
+}
+

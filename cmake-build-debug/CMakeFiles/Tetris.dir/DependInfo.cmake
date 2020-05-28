@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Progect/C++/Tetris/Source/Block.cpp" "D:/Progect/C++/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/Source/Block.cpp.obj"
   "D:/Progect/C++/Tetris/Source/Blocks.cpp" "D:/Progect/C++/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/Source/Blocks.cpp.obj"
   "D:/Progect/C++/Tetris/Source/Board.cpp" "D:/Progect/C++/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/Source/Board.cpp.obj"
+  "D:/Progect/C++/Tetris/Source/Game.cpp" "D:/Progect/C++/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/Source/Game.cpp.obj"
+  "D:/Progect/C++/Tetris/Source/GameUI.cpp" "D:/Progect/C++/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/Source/GameUI.cpp.obj"
   "D:/Progect/C++/Tetris/Source/OBlocks.cpp" "D:/Progect/C++/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/Source/OBlocks.cpp.obj"
   "D:/Progect/C++/Tetris/main.cpp" "D:/Progect/C++/Tetris/cmake-build-debug/CMakeFiles/Tetris.dir/main.cpp.obj"
   )
