@@ -50,15 +50,17 @@ void Board::downRow(int row) {
 
 // 插入blocks
 bool Board::insertBlocks(Blocks *pBlocks) {
-    if (isInserting(pBlocks)) {
+    //if (isInserting(pBlocks)) {
         for (int i = 0; i < 4; i++) {
             int row = pBlocks->getBlock()[i].getRow();
             int col = pBlocks->getBlock()[i].getCol();
-            pGameBoard[row][col] = BLOCK;
+            if (row >-1 && col > -1) {
+                pGameBoard[row][col] = BLOCK;
+            }
         }
         return true; // 插入成功
-    }
-    return false;    // 插入失败
+    //}
+    //return false;    // 插入失败
 }
 
 
@@ -67,7 +69,9 @@ void Board::deleteBlocks(Blocks *pBlocks) {
     for (int i = 0; i < 4; i++) {
         int row = pBlocks->getBlock()[i].getRow();
         int col = pBlocks->getBlock()[i].getCol();
-        pGameBoard[row][col] = EMPTY;
+        if (row >-1 && col > -1) {
+            pGameBoard[row][col] = EMPTY;
+        }
     }
 }
 
@@ -75,12 +79,14 @@ void Board::deleteBlocks(Blocks *pBlocks) {
 bool Board::isInserting(Blocks *pBlocks) {  // true:可以放置
     for (int i = 0; i < 4; i++) {           // false:不可以放置
         int row = pBlocks->getBlock()[i].getRow(); // 插入行
-        int col = pBlocks->getBlock()[i].getCol(); // 插入列
-        if (row == 0 || row == GAME_WIDTH - 1 ||
-            col == 0 || col == GAME_HEIGHT - 1 ||
-            pGameBoard[row][col] != EMPTY) {
+        int col = pBlocks->getBlock()[i].getCol(); // 插入
+        if (row >-1 && col > -1) {
+            if (row == 0 || row == GAME_WIDTH - 1 ||
+                col == 0 || col == GAME_HEIGHT - 1 ||
+                pGameBoard[row][col] != EMPTY) {
 
-            return false;
+                    return false;
+            }
         }
     }
     return true;

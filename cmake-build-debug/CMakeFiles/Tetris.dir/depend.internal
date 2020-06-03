@@ -18,8 +18,10 @@ CMakeFiles/Tetris.dir/Source/Game.cpp.obj
  D:/Progect/C++/Tetris/Header/Block.h
  D:/Progect/C++/Tetris/Header/Blocks.h
  D:/Progect/C++/Tetris/Header/Board.h
+ D:/Progect/C++/Tetris/Header/Common.h
  D:/Progect/C++/Tetris/Header/Game.h
  D:/Progect/C++/Tetris/Header/GameUI.h
+ D:/Progect/C++/Tetris/Header/OBlocks.h
  D:/Progect/C++/Tetris/Source/Game.cpp
 CMakeFiles/Tetris.dir/Source/GameUI.cpp.obj
  D:/Progect/C++/Tetris/Header/Block.h

@@ -30,7 +30,7 @@ int Block::getCol() {
 }
 
 void Block::move(int r, int c) {
-    this->row = r;
-    this->col = c;
+    this->row += r;
+    this->col += c;
 }
 

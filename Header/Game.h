@@ -21,6 +21,7 @@ public:
     ~Game();            // 析构函数
     void startGame();   // 启动游戏
     void startTetris(); // 开始游戏
+    void createBlock(); // 随机产生方块
 };
 
 #endif //TETRIS_GAME_H

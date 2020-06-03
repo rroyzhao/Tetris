@@ -4,8 +4,11 @@
 
 #include "../Header/Game.h"
 
+#include "../Header/Common.h"
+#include "../Header/OBlocks.h"
 #include <iostream>
 #include <stdlib.h>
+#include <time.h>
 
 using namespace std;
 
@@ -45,6 +48,40 @@ void Game::startGame() {
 }
 
 void Game::startTetris() {
-    this->gameUi->TetrisGame(this->board);
+    createBlock(); // 随机生成Blocks
+
+    while (1) {
+        if (this->board->isInserting(this->blocks)) {
+            board->insertBlocks(blocks);
+        }
+        this->gameUi->TetrisGame(this->board);
+        board->deleteBlocks(blocks);
+        blocks->moveDown();
+        // 按键操作
+
+    }
+}
+
+void Game::createBlock() {
+    srand((unsigned) time(NULL)); // time() --时间戳
+    int randNumber = rand() % BLOCKNUMBER + 1;
+    switch (randNumber) {
+        case 1:
+            // 生成田字形方块
+            blocks = new OBlocks();
+            break;
+        case 2:
+            break;
+        case 3:
+            break;
+        case 4:
+            break;
+        case 5:
+            break;
+        case 6:
+            break;
+        case 7:
+            break;
+    }
 }
 

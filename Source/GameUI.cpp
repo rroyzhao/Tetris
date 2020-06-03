@@ -23,6 +23,7 @@ void GameUI::GameFirstUI() {
 }
 
 void GameUI::TetrisGame(Board *pBoard) {
+    system("cls");    // 清屏
     for (int row = 0; row < GAME_WIDTH; row++) {
         for (int col = 0; col < GAME_HEIGHT; col++) {
             if (row == 0 || row == GAME_WIDTH - 1 ||
@@ -35,5 +36,6 @@ void GameUI::TetrisGame(Board *pBoard) {
         }
         cout << endl;
     }
+    //system("pause");
 }
 

@@ -8,4 +8,6 @@
 #define BORDER '#'      // 边界线符号
 #define BLOCKf '@'      // 方块符号
 
+#define BLOCKNUMBER 1   // 方块的数量
+
 #endif // TETRIS_COMMON_H
